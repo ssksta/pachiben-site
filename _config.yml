@@ -1,0 +1,26 @@
+# GitHub Pages (Jekyll) の設定。テーマは Pages 同梱の minima を使う。
+title: ぱちベン
+description: 実戦値でつくる、あなたのぱちんこスペック表
+lang: ja
+theme: minima
+
+# プロジェクトサイト (https://ssksta.github.io/pachiben-site/) 前提。
+# 独自ドメインへ移す場合は baseurl を "" にし、url を差し替える。
+url: "https://ssksta.github.io"
+baseurl: "/pachiben-site"
+
+# ヘッダーのナビに出すページ (順序どおり)。特商法ページを足すときはここに1行増やす。
+header_pages:
+  - index.md
+  - privacy.md
+  - support.md
+
+# minima のフッターにメールアドレス・SNS を出さない (窓口は support.md に集約する)。
+minima:
+  social_links: {}
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
