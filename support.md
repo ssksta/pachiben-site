@@ -6,7 +6,7 @@ permalink: /support/
 
 ぱちベンに関するお問い合わせは、以下のメールアドレスで受け付けています。
 
-**お問い合わせ先**: <!-- TODO(#420): オーナーが決めた窓口アドレスに置き換える --> `support@example.com`
+**お問い合わせ先**: [pachiben.support@gmail.com](mailto:pachiben.support@gmail.com)
 
 個人で開発・運営しているため、返信までお時間をいただく場合があります。
 お問い合わせの内容によっては、回答できないことがあります。あらかじめご了承ください。
