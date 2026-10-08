@@ -11,12 +11,13 @@ GitHub Pages (Jekyll + minima) で配信する。**アプリ本体のソース�
 | 紹介 (トップ) | `index.md` | アプリの説明。App Store Connect の「マーケティング URL」 |
 | プライバシーポリシー | `privacy.md` | App Store Connect の「プライバシーポリシー URL」 (審査必須) |
 | サポート / お問い合わせ | `support.md` | App Store Connect の「サポート URL」兼、権利者からの修正・削除依頼の窓口 (審査必須) |
+| 特定商取引法に基づく表記 | `tokushoho.md` | アプリ内課金の販売に必要な表記。App Store の説明文から URL で案内する |
 
 ## 更新のしかた
 
 Markdown を直して `main` に push すれば GitHub Pages が自動で build・配信する。
 ページを増やすときは `.md` を足し、`_config.yml` の `header_pages` に1行加える
-(課金を入れるときの特定商取引法に基づく表記ページなど)。
+(例: 特定商取引法に基づく表記 `tokushoho.md`)。
 
 ローカルで見たいときは (任意):
 
@@ -37,5 +38,5 @@ bundle exec jekyll serve   # http://127.0.0.1:4000/pachiben-site/
 
 - 非公式アプリの注記は `doc/legal_considerations.md`「非公式アプリであることの明示」の文面をそのまま使う
   (要約・言い換えをしない)
-- プライバシーポリシーの事実関係 (依存パッケージ・外部通信は機種カタログの取得のみ・記録は端末内保存) は
-  アプリ本体の Issue #420 で確認済み。**アプリの依存や通信が変わったら文面も直す**
+- プライバシーポリシーの事実関係 (依存パッケージ・外部通信は機種カタログの取得とアプリ内課金の App Store とのやり取りのみ・記録は端末内保存) は
+  アプリ本体の Issue #420 / #692 で確認済み。**アプリの依存や通信が変わったら文面も直す**

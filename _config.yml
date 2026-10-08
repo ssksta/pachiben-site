@@ -9,11 +9,12 @@ theme: minima
 url: "https://ssksta.github.io"
 baseurl: "/pachiben-site"
 
-# ヘッダーのナビに出すページ (順序どおり)。特商法ページを足すときはここに1行増やす。
+# ヘッダーのナビに出すページ (順序どおり)。ページを足すときはここに1行増やす。
 header_pages:
   - index.md
   - privacy.md
   - support.md
+  - tokushoho.md
 
 # minima のフッターにメールアドレス・SNS を出さない (窓口は support.md に集約する)。
 minima:
