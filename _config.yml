@@ -1,8 +1,6 @@
 # GitHub Pages (Jekyll) の設定。テーマは Pages 同梱の minima を使う。
 title: ぱちベン
 description: 実戦値でつくる、あなたのぱちんこスペック表
-# X などでリンクを貼ったときのカード画像 (jekyll-seo-tag が og:image / twitter:image に出す)。
-image: /assets/app_icon.png
 lang: ja
 theme: minima
 
@@ -27,3 +25,11 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# X などでリンクを貼ったときのカード画像。jekyll-seo-tag は各ページの image しか読まない
+# (サイト直下の image は無視される) ため、全ページの既定値として配る。
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/app_icon.png
