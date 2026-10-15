@@ -12,9 +12,7 @@ permalink: /
 見える化する iOS アプリです。初当り確率や大当り振り分けの実績を、攻略サイトのスペック表のような
 円グラフで確認できます。
 
-<!-- TODO: App Store 公開後にリンクを差し込む
-[App Store でダウンロード](https://apps.apple.com/jp/app/idXXXXXXXXXX)
--->
+[App Store でダウンロード](https://apps.apple.com/jp/app/id6817954802)
 
 ## できること
 
