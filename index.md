@@ -22,11 +22,15 @@ permalink: /
 - **実戦値をスペック表風に表示**。初当り確率、RUSH 突入率、振り分けの実績を、スペック表のような表と円グラフで確認できます
 - **遊技記録はお使いの端末の中だけに保存**されます。アカウント登録は不要で、記録が外部へ送られることはありません
 
-<!-- TODO: スクリーンショット。App Store 用 (6.7" / 6.5") の撮影を先に済ませ、同じ素材を流用する。
-掲載物の制約 (README.md「掲載してよいもの」) に従い、アプリ画面以外は載せない。
-![機種画面](assets/screenshot-machine.png)
-![マイスペック画面](assets/screenshot-my-spec.png)
--->
+<!-- 画面の画像は App Store 掲載用 (6.5 インチ枠) の画像を半分に縮めて流用している (別途撮らない)。
+ストアの画像を撮り直したら、ここも同じ素材で差し替える。
+掲載物の制約 (README.md「掲載してよいもの」) に従い、アプリ画面以外は載せない。 -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; max-width: 760px; margin: 0 auto 1.5em;">
+  <img src="{{ '/assets/screenshots/catalog.jpg' | relative_url }}" alt="機種カタログの画面。機種はカタログから選ぶだけ" width="642" height="1389" style="width: 100%; height: auto;">
+  <img src="{{ '/assets/screenshots/record.jpg' | relative_url }}" alt="記録入力の画面。回転数を入れてボタンで記録" width="642" height="1389" style="width: 100%; height: auto;">
+  <img src="{{ '/assets/screenshots/my-spec.jpg' | relative_url }}" alt="マイスペックの画面。初当り確率や RUSH 突入率の実戦値" width="642" height="1389" style="width: 100%; height: auto;">
+  <img src="{{ '/assets/screenshots/my-spec-chart.jpg' | relative_url }}" alt="マイスペックの画面。大当り振り分けの実績を円グラフで表示" width="642" height="1389" style="width: 100%; height: auto;">
+</div>
 
 ## ご注意
 
